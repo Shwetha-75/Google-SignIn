@@ -9,6 +9,7 @@ class ReadData:
           try:
               
              result=requests.get(f"{os.getenv("REPOSITORY_URL")}/check/{email}").json()
+             print("User Details  from backend :",result)
              return result
           except Exception as exception:
                  print(exception)
