@@ -62,6 +62,7 @@ sequenceDiagram
     end
     Note over FlaskApp: On exception, return failure JSON
 ```
+
 ---
 
 <div>
