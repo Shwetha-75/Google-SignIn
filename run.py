@@ -4,5 +4,5 @@ import os
 load_dotenv()
 
 app=createApp()
-if __name__=='__main__':
-   app.run(port=os.getenv('PORT'),debug=True)
+# if __name__=='__main__':
+#    app.run(port=os.getenv('PORT'),debug=True)
